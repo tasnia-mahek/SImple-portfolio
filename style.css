@@ -235,3 +235,55 @@ footer p{
     font-size:14px;
     text-align:center;
 }
+.ai-challenge{
+    background:#f8fafc;
+    padding:80px 0;
+}
+
+.ai-container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    text-align:center;
+}
+
+.ai-container h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.ai-container>p{
+    max-width:700px;
+    margin:0 auto 50px;
+    color:#666;
+    line-height:1.7;
+}
+
+.challenge-features{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+    margin-bottom:40px;
+}
+
+.feature{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:left;
+}
+
+.feature h3{
+    margin-bottom:12px;
+    color:#2563eb;
+}
+
+.feature p{
+    color:#666;
+    line-height:1.6;
+}
+
+.ai-challenge .btn{
+    margin-top:10px;
+}
