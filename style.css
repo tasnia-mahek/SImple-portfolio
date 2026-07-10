@@ -319,17 +319,8 @@ footer p{
     background:#1d4ed8;
     transform:translateY(-3px);
 }
-.card{
-    border:1px solid #ddd;
-    border-radius:10px;
-    overflow:hidden;
-    transition:0.3s;
-}
 
-.card:hover{
-    transform:translateY(-8px);
-    box-shadow:0 10px 25px rgba(0,0,0,0.15);
-}
+
 .secure-card{
     transition:0.3s;
 }
@@ -337,4 +328,11 @@ footer p{
 .secure-card:hover{
     transform:scale(1.03);
     box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
+.feature{
+    transition:0.3s;
+}
+
+.feature:hover{
+    background: #e5e7eb;
 }
