@@ -296,3 +296,45 @@ footer p{
 .ai-challenge .btn{
     margin-top:10px;
 }
+.menu a{
+    text-decoration: none;
+    color: #575757;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: #2563eb;
+}
+.btn{
+    padding:12px 20px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+.card{
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+.secure-card{
+    transition:0.3s;
+}
+
+.secure-card:hover{
+    transform:scale(1.03);
+    box-shadow:0 12px 30px rgba(0,0,0,0.15);
+}
